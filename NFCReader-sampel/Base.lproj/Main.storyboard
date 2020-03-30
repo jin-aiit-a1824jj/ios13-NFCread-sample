@@ -15,13 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XK0-3T-nzU">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XK0-3T-nzU">
                                 <rect key="frame" x="20" y="192" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rr-w8-rzn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rr-w8-rzn">
                                 <rect key="frame" x="20" y="433" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="NFCタグを読む！">
@@ -33,15 +35,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="XK0-3T-nzU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="148" id="Wi0-G2-Lpw"/>
-                            <constraint firstItem="XK0-3T-nzU" firstAttribute="trailing" secondItem="7Rr-w8-rzn" secondAttribute="trailing" id="Zjh-lm-fYl"/>
-                            <constraint firstItem="XK0-3T-nzU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="d8J-Zf-Qhl"/>
-                            <constraint firstItem="XK0-3T-nzU" firstAttribute="leading" secondItem="7Rr-w8-rzn" secondAttribute="leading" id="kDY-5P-hnK"/>
-                            <constraint firstItem="7Rr-w8-rzn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lQb-GF-TVh"/>
-                            <constraint firstItem="XK0-3T-nzU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mZI-CD-cUN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Rr-w8-rzn" secondAttribute="bottom" constant="399" id="znN-UV-V8I"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>

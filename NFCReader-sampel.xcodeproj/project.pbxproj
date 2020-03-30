@@ -13,6 +13,7 @@
 		65A095F12431A2A100712770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A095EF2431A2A100712770 /* Main.storyboard */; };
 		65A095F32431A2A200712770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A095F22431A2A200712770 /* Assets.xcassets */; };
 		65A095F62431A2A200712770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A095F42431A2A200712770 /* LaunchScreen.storyboard */; };
+		65A096002431AAB000712770 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A095FF2431AAB000712770 /* CoreNFC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		65A095F52431A2A200712770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65A095F72431A2A200712770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A095FD2431A2C200712770 /* NFCReader-sampel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NFCReader-sampel.entitlements"; sourceTree = "<group>"; };
+		65A095FF2431AAB000712770 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A096002431AAB000712770 /* CoreNFC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				65A095E82431A2A100712770 /* NFCReader-sampel */,
 				65A095E72431A2A100712770 /* Products */,
+				65A095FE2431AAAF00712770 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +71,14 @@
 				65A095F72431A2A200712770 /* Info.plist */,
 			);
 			path = "NFCReader-sampel";
+			sourceTree = "<group>";
+		};
+		65A095FE2431AAAF00712770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A095FF2431AAB000712770 /* CoreNFC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
